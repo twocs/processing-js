@@ -8450,8 +8450,8 @@
         y -= height / 2;
       }
 
-      x = Math.round(x);
-      y = Math.round(y);
+      x = Math.floor(x);
+      y = Math.floor(y);
       width = Math.round(width);
       height = Math.round(height);
       if (tl !== undef) {
